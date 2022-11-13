@@ -14,9 +14,9 @@ and using a division alternative that doesn't involve decimal values or fraction
 Also Avoiding heavy calculations inside loops and replacing them with addition and subtraction.
 
 Explanation:
-1)Slope
+1)Slope  
 Starting with Slope this algo doesn't calculate slope as dx/dy or dy/dx instead it compares if dx==dy ,dx>dy or dy>dx for 3 possible slope cases.
 
-2)Implementing the Simpler Lines
+2)Implementing the Simpler Lines  
 Not all lines need alot of logic, 45° and similar lines are simply implemented in dx==dy using 4 cases each incrementing or decrementing x and y accordingly.
 Straight Lines just need 2 cases in dy<dx for incrementing or decrementing x and 2 cases in dy>dx for incrementing or decrementing y
