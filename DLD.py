@@ -130,10 +130,10 @@ def drawer(x1,y1,x2,y2):
     elif(dy>dx):
         if(x==x2 and y<y2):
                 while(y<=y2):
-                    steps(1, 1, -1)
+                    ploter(x, y);y=y+1
         elif(x==x2 and y>y2):
                 while(y>=y2):
-                    steps(1, 1, -1)
+                    ploter(x, y);y=y-1
         elif(x<x2 and y<y2):
                 while(x<=x2):
                     steps(1, 1, -1)
