@@ -1,7 +1,7 @@
 # Diablo-Line-Drawer
 Diablo's Line Drawer is an alternative Line Drawing Algorithm that avoids Heavy Calculations.
 
-The Most Widely and Commonly used Line Drawing Algo is Bresenham's Line Drawing Algorithm
+The Most Widely and Commonly used Line Drawing Algo is Bresenham's Line Drawing Algorithm,
 For all Mordern Computers this is easy to use and fast,accurate,etc.
 
 But for someone like me who makes virtual computers inside videogames like Minecraft
