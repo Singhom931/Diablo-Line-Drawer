@@ -36,21 +36,6 @@ def ploter(x,y):
     plot = pygame.Rect((x-1)*blockSize, (y-1)*blockSize, blockSize, blockSize)
     pygame.draw.rect(SCREEN, RED, plot)
 
-def split(a,b):
-    s =[]
-    if (a%b==0):
-        slices = a/b
-        s.append(slices)
-        return s
-    else:
-        while(a>b):
-            ab =a/b;ba = ab - int(ab)
-            if (ba > 0.5):
-                abc = int(ab)+1;ba=ba-0.5;s.append(abc)
-            elif (ba < 0.5):
-                abc = int(ab);s.append(abc)
-                return s  
-
 def zvalue(px,py):
     z=0
     if(px>py):
