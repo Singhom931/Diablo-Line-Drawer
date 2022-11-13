@@ -45,7 +45,8 @@ f)You need 4 cases for dx>dy and 4 cases for dy>dx for incrementing or decrement
 I have Implemented this using the steps() function with 3 parameters (dirx,diry,gors), gors 1,-1 for dx>dy,dy>dx.  
 dirx and diry can have value 1 or -1 for increment or decrement to implement the 4 cases (1,1)(1,-1)(-1,-1)(-1,1).  
 CODE(function that runs in the loop):  
- ploter(x, y);step = step+1  
+```
+ ploter(x, y);step = step+1 
     if(gors==-1):  
         if(ss>0):  
             ss=ss-1 ;x=x+dirx; step=0  
@@ -58,6 +59,7 @@ CODE(function that runs in the loop):
         elif(step==zs and oz>0):  
             oz=oz-1;ss=skips;y=y+diry  
         x=x+dirx  
+```
 First it plots the current coords and increments the step by 1.  
 then checks ss(number of skips needed) if it's 0, it checks if step==zs(zs is Length of Line needed to build the bigger Line) and oz>0(Number of Z lines left to be plotted) and finally at the end of each loop increments x by dirx for dx>dy(gors==1) and y by diry for dy>dx(gors==-1).  
 if (step==zs and oz>0) is true anytime during the loop, decrements oz(Occurences of z left) by 1, sets ss==skips(number of times to skip after each Z plot), increments x by dirx for dy>dx(gors==-1) and y by diry for dx>dy(gors==1).  
