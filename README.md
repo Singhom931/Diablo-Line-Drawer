@@ -12,3 +12,7 @@ This Algorithm aims to solve this issue by avoiding multiplications, using compa
 and using a division alternative that doesn't involve decimal values or fractions.
 
 Also Avoiding heavy calculations inside loops and replacing them with addition and subtraction.
+
+Explanation:
+
+Starting with Slope this algo doesn't calculate slope as dx/dy or dy/dx instead it compares if dx==dy ,dx>dy or dy>dx for 3 possible slope cases.
